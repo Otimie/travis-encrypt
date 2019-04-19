@@ -1,5 +1,5 @@
 task :my_task do
-  # Your code goes here
+  ruby main.rb
 end
 
 task :default => ["my_task"]
