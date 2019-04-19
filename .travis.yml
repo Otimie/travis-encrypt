@@ -1,2 +1,4 @@
 languge: ruby
 install: gem install travis
+script:
+  - ruby main.rb
