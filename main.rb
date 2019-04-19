@@ -1,4 +1,4 @@
 require 'travis'
 
-Travis::Repository.find('rails/rails')
+repo = Travis::Repository.find('rails/rails')
 puts repo.encrypt('FOO=bar')
