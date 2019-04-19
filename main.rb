@@ -13,7 +13,14 @@ header = {
   'Travis-API-Version': '3',
   'Authorization': 'token '
 }
-payload = {key: 'value'}
+payload = {
+  "request": {
+    "branch":"master",
+    "config": {
+      "env": {}
+    }
+  }
+}
 
 uri = URI.parse("https://api.travis-ci.com/")
 http = Net::HTTP.new(uri.host, uri.port)
