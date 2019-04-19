@@ -11,7 +11,7 @@ header = {
   'Content-Type': 'application/json',
   'Accept': 'application/json',
   'Travis-API-Version': '3',
-  'Authorization': 'token '
+  'Authorization': 'token ' + ENV['TOKEN']
 }
 payload = {
   "request": {
