@@ -1,3 +1,6 @@
+require 'net/http'
+require 'uri'
+
 require 'travis'
 
 repo = Travis::Repository.find('rails/rails')
